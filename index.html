@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios con Partículas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="particles-js"></div> 
+
+    <div class="content-wrapper">
+        <h1>Explora Nuestros Servicios</h1>
+
+        <div class="card-container">
+            <div class="card">
+                <h2>factura</h2>
+                <p>Ofrecemos asesoramiento experto para optimizar tus proyectos y estrategias empresariales. ¡Descubre cómo podemos ayudarte!</p>
+                <a href=" https://jeffersonarley.github.io/factura_/" class="card-button" target="_blank">Ver Más</a>
+            </div>
+
+            <div class="card">
+                <h2>Tienda</h2>
+                <p>Creamos sitios web modernos, responsivos y optimizados para el rendimiento, adaptados a tus necesidades.</p>
+                <a href="https://jeffersonarley.github.io/productos_/" class="card-button" target="_blank">Explorar</a>
+            </div>
+
+            <div class="card">
+                <h2>comidas Jorlan</h2>
+                <p>Estrategias de marketing digital efectivas para aumentar tu visibilidad y alcanzar a tu público objetivo.</p>
+                <a href=" https://jeffersonarley.github.io/comidas_/" class="card-button" target="_blank">Conocer Más</a>
+            </div>
+            
+            <div class="card">
+                <h2>juego</h2>
+                <p>Ofrecemos asesoramiento experto para optimizar tus proyectos y estrategias empresariales. ¡Descubre cómo podemos ayudarte!</p>
+                <a href="https://jeffersonarley.github.io/the_Lans_Of_Dragonstons/" class="card-button" target="_blank">Ver Más</a>
+            </div>
+        </div>
+        
+        <h1 style="color: white; margin-top: 50px;"></h1>
+        <p style="color: lightgray;"></p>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script>
+    
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 150, // 👈 ¡AUMENTADO! Cantidad de partículas, de 80 a 150
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff" 
+        },
+        "shape": {
+          "type": "circle"
+        },
+        "size": {
+          "value": 1, // 👈 ¡REDUCIDO! Tamaño de las partículas, de 3 a 1
+          "random": true
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          }
+        }
+      },
+      "retina_detect": true
+    });
+ 
+    </script>
+
+</body>
+</html>
